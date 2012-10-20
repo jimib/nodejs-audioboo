@@ -1,0 +1,12 @@
+{
+  "name": "nodejs-audioboo",
+  "description": "Library for interacting with Audioboo",
+  "version": "0.0.1",
+  "author": {
+    "name": "jimib",
+    "email": "jimi.bailey@gmail.com"
+  },
+  "dependencies" : {
+	"oauth" : "latest"
+  }
+}

@@ -1,0 +1,1 @@
+exports.AudioBoo = require("./lib/audioboo").AudioBoo;
