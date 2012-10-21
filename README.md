@@ -15,6 +15,7 @@ AudioBoo > Settings > API Keys
 Create a config file using the command line tool.
 
 cd node_modules/audioboo
+
 ./index.js --configure
 
 The application will take you through the authetication process and create a config file to be used by your application.
