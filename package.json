@@ -1,12 +1,13 @@
 {
   "name": "nodejs-audioboo",
-  "description": "Library for interacting with Audioboo",
+  "description": "Library for interacting with Audioboo, uses a slightly adapted version of node-oauth as created by ciaranj",
   "version": "0.0.1",
   "author": {
     "name": "jimib",
     "email": "jimi.bailey@gmail.com"
   },
   "dependencies" : {
-	"oauth" : "latest"
+	"oauth" : "git://github.com/jimib/node-oauth.git#master",
+	"prompt" : "latest"
   }
 }

@@ -8,6 +8,7 @@ var config = require("./audioboo.json");
 //now try to use audioboo
 var api = new audioboo(config);
 
-api.getCurrentUserClips(function(err, result){
-	
+api.uploadAudio("/Users/Jimi/Desktop/001.mp3", null, function(err, result){
+	console.log("error:", err);
+	console.log("result:", result);
 });
