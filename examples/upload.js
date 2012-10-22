@@ -29,6 +29,8 @@ upload.setDescription("Example of uploading audio and image using nodejs-audiobo
 
 
 api.upload(upload, function(err, result){
-	console.log("error:", err);
-	console.log("result:", result);
+	//show the errors - if any
+	if(err)console.log("error:",err);
+	//show the result - if any
+	if(result)console.log("result:",util.inspect(result, false, 5, true));
 });
