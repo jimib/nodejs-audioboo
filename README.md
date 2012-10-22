@@ -4,19 +4,28 @@ nodejs-audioboo
 Library for interacting with Audioboo
 
 Add to your package.json file list of dependencies:
-"audioboo" : "git://github.com/jimib/nodejs-audioboo.git#master"
+<pre>
+	"dependencies" : {
+		"audioboo" : "git://github.com/jimib/nodejs-audioboo.git#master"
+	}
+</pre>
 
-Install using npm:
+Update your dependencies using npm:
+<pre>
 npm install -d
+</pre>
+
+*I will be adding this to npm very soon, needs more testing first
 
 To use Audioboo's API you must create a set of consumer keys through your AudioBoo account.
 AudioBoo > Settings > API Keys
 
 Create a config file using the command line tool.
 
+<pre>
 cd node_modules/audioboo
-
 ./index.js --configure
+</pre>
 
 The application will take you through the authetication process and create a config file to be used by your application.
 
