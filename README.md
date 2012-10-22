@@ -17,10 +17,14 @@ npm install -d
 
 *I will be adding this to npm very soon, needs more testing first
 
+
+Configuring your account
+========================
+
 To use Audioboo's API you must create a set of consumer keys through your AudioBoo account.
 AudioBoo > Settings > API Keys
 
-Create a config file using the command line tool.
+Create a config file using the provided command line tool.
 
 <pre>
 cd node_modules/audioboo
@@ -40,6 +44,9 @@ The config file is of the format if you want create it manually:
 </pre>
 
 Save the config file and then load it in your application:
+
+Examples
+========
 
 <pre>
 //load the config file
