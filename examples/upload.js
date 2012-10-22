@@ -21,10 +21,11 @@ access_key and access_secret are only required if you want to access a specific 
 //now try to use audioboo
 var api = new libAudioBoo.AudioBoo(config);
 
-var upload = new libAudioBoo.Upload("Sample Upload using new Audioboo NodeJs Library", "/Users/Jimi/Desktop/001.mp3");
+var upload = new libAudioBoo.Upload("/Users/Jimi/Desktop/002-a.mp3");
+upload.setTitle("Sample Upload using new Audioboo NodeJs Library");
 upload.addImage("/Users/Jimi/Desktop/favicon.png");
 upload.setTags(["development", "nodejs", "audioboo", "jimib"]);
-upload.setDescription("Example of uploading audio and image using nodejs-audioboo.\n View the github repo @ https://github.com/jimib/nodejs-audioboo");
+upload.setDescription("Example of uploading audio and image using nodejs-audioboo.\n\nAudio courtesy of HumbleMarket @ http://www.fact.co.uk/projects/the-humble-market-trade-secrets/ \nView the github repo @ https://github.com/jimib/nodejs-audioboo");
 
 
 api.upload(upload, function(err, result){
