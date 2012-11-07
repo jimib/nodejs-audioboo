@@ -2,6 +2,7 @@
 exports.AudioBoo = require("./lib/audioboo").AudioBoo;
 exports.Audio = require("./lib/audio").Audio;
 exports.Upload = require("./lib/upload").Upload;
+exports.Update = require("./lib/upload").Update;
 exports.Url = require("./lib/audio").Url;
 exports.User = require("./lib/audio").User;
 
