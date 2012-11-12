@@ -1,5 +1,5 @@
 #!/usr/local/bin/node
-exports.AudioBoo = require("./lib/audioboo").AudioBoo;
+exports.Audioboo = require("./lib/audioboo").Audioboo;
 exports.Audio = require("./lib/audio").Audio;
 exports.Upload = require("./lib/upload").Upload;
 exports.Update = require("./lib/upload").Update;

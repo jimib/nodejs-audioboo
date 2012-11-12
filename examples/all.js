@@ -1,5 +1,5 @@
 var util = require("util");
-var audioboo = require("./../").AudioBoo;
+var audioboo = require("./../").Audioboo;
 var config = require("./audioboo.json");
 
 //USE THE AUDIOBOO COMMAND LINE TOOL TO CONFIGURE AND CREATE audioboo.json

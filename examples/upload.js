@@ -20,7 +20,7 @@ access_key and access_secret are only required if you want to access a specific 
 */
 
 //now try to use audioboo
-var api = new libAudioBoo.AudioBoo(config);
+var api = new libAudioBoo.Audioboo(config);
 var id = new Date().getTime().toString();
 
 console.log("id: ",id);
